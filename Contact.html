@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Start van head-->
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/61f819b69c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Joe Willems Portfolio</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="JS/Functie.JS"></script>
+    <link rel="icon" href="Images/Web-Logo.png" type="Images/jpg">
+    <!--einde van head-->
+</head>
+
+<body>
+    <!--Start van header-->
+    <header>
+        <div class="Bar">
+            <!--Start van navigatie-->
+            <nav>
+            <ul class="menu">
+                <li><a class="WhiteText" href="index.html">Home</a></li>
+                <li><a class="WhiteText" href="Projecten.html">Projecten</a></li>
+                <li><a class="WhiteText" href="OverMij.html">Over mezelf</a></li>
+                <li><a class="WhiteText" href="Contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <nav class="Bar">
+                <a class="Header-Purple-Button" href="index.html">
+                    <h3 class="BiggerWhiteText">Home</h3>
+            </a>
+            <a class="Header-Purple-Button" href="Projecten.html">
+                <h3 class="BiggerWhiteText">Projecten</h3>
+            </a>
+            <img class="LogoIconStart" src="Images/Logo.png" alt="Website logo">
+            <a class="Header-Purple-Button" href="OverMij.html">
+                <h3 class="BiggerWhiteText">Over mezelf</h3>
+            </a>
+            <a class="Header-Purple-Button" href="Contact.html">
+                <h3 class="BiggerWhiteText">Contact</h3>
+            </a>
+            <!--einde van navigatie-->
+            </nav>
+            <!--Start van progress bar-->
+            <div class="header">
+                <div class="progress-container">
+                  <div class="progress-bar" id="myBar"></div>
+                </div>
+                <!--Einde van progress bar-->
+              </div>
+        </div>
+        <!--Einde van header-->
+    </header>
+    <!--Start van mobiel header-->
+    <header>
+    <div class="topnav">
+        <img class="active" src="Images/Logo.png" alt="">
+         <!--Navigatie-->
+        <nav id="myLinks">
+          <a class="WhiteText" href="index.html">Home</a>
+          <a class="WhiteText" href="Projecten.html">Projecten</a>
+          <a class="WhiteText" href="OverMij.html">Over mezelf</a>
+          <a class="WhiteText" href="Contact.html">Contact</a>
+        </nav>
+        <a href="javascript:void(0);" class="icon" onclick="TopHamburgerMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+       <!--Einde van mobiel header-->
+    </header>
+    <!--Start van main-->
+    <main>
+        <div class="Onzichtbare-Rij-Mobiel"></div>
+        <div class="Onzichtbare-Rij"></div>
+        <div class="Contact-Frame-Rij">
+            <div class="Contact-Frame">
+                <div class="Contact-Titel">
+                    <h1 class="BiggerWhiteText">Neem contact op</h1>
+                    <h3 class="BiggerWhiteText">1210764@student.roc-nijmegen.nl</h3>
+                </div>
+                <div class="Naam-Contact-Knop-Rij">
+                    <div class="Naam-Contact-Knop">
+                        <input class="WhiteText-Contact" name="name" placeholder="  Naam">
+                    </div>
+                </div>
+                <div class="Naam-Contact-Knop-Rij">
+                    <div class="Naam-Contact-Knop">
+                        <input class="WhiteText-Contact" name="Email" placeholder="  Email">
+                    </div>
+                </div>
+                <div class="Naam-Contact-Knop-Rij">
+                    <div class="Naam-Contact-Knop">
+                        <input class="WhiteText-Contact" name="Bericht" placeholder="  Bericht">
+                    </div>
+                </div>
+                    <a class="Stuur-Knop" onClick="refreshPage()">
+                        <h3 class="WhiteText">Versturen</h3>
+                    </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="Onzichtbare-Rij"></div>
+        <div class="Bar">
+            <nav>
+                <ul class="menu">
+                    <li><a class="WhiteText" href="index.html">Home</a></li>
+                    <li><a class="WhiteText" href="Projecten.html">Projecten</a></li>
+                    <li><a class="WhiteText" href="OverMij.html">Over mezelf</a></li>
+                    <li><a class="WhiteText" href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="Bar">
+                <a class="Header-Purple-Button" href="index.html">
+                    <h3 class="BiggerWhiteText">Home</h3>
+            </a>
+            <a class="Header-Purple-Button" href="Projecten.html">
+                <h3 class="BiggerWhiteText">Projecten</h3>
+            </a>
+            <img class="LogoIconStart" src="Images/Logo.png" alt="Website logo">
+            <a class="Header-Purple-Button" href="OverMij.html">
+                <h3 class="BiggerWhiteText">Over mezelf</h3>
+            </a>
+            <a class="Header-Purple-Button" href="Contact.html">
+                <h3 class="BiggerWhiteText">Contact</h3>
+            </a>
+            </nav>
+        </div>
+    </footer>
+    <!--Start van mobiel footer-->
+    <footer>
+        <div class="topnav">
+            <!--Navigatie-->
+            <nav id="myLinks2">
+                <a class="WhiteText" href="index.html">Home</a>
+                <a class="WhiteText" href="Projecten.html">Projecten</a>
+                <a class="WhiteText" href="OverMij.html">Over mezelf</a>
+                <a class="WhiteText" href="Contact.html">Contact</a>
+            </nav>
+            <!-- Hamburger menu logo-->
+            <img class="active" src="Images/Logo.png" alt="">
+            <!--Als logo wordt geklikt voert hij een functie uit-->
+            <a href="javascript:void(0);" class="icon" onclick="BottomHamburgerMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <!--Einde van mobiel footer-->
+    </footer>
+    <!--Einde van body-->
+</body>

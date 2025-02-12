@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Start van head-->
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/61f819b69c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecten | Joe Willems Portfolio</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="JS/Functie.JS"></script>
+    <link rel="icon" href="Images/Web-Logo.png" type="Images/jpg">
+    <!--Einde van head-->
+</head>
+
+<!--Start van body-->
+<body>
+    <!--Start van header-->
+    <header>
+        <div class="Bar">
+            <!--Start van navigatie-->
+            <nav>
+            <ul class="menu">
+                <li><a class="WhiteText" href="index.html">Home</a></li>
+                <li><a class="WhiteText" href="Projecten.html">Projecten</a></li>
+                <li><a class="WhiteText" href="OverMij.html">Over mezelf</a></li>
+                <li><a class="WhiteText" href="Contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <nav class="Bar">
+                <a class="Header-Purple-Button" href="index.html">
+                    <h3 class="BiggerWhiteText">Home</h3>
+            </a>
+            <a class="Header-Purple-Button" href="Projecten.html">
+                <h3 class="BiggerWhiteText">Projecten</h3>
+            </a>
+            <img class="LogoIconStart" src="Images/Logo.png" alt="Website logo">
+            <a class="Header-Purple-Button" href="OverMij.html">
+                <h3 class="BiggerWhiteText">Over mezelf</h3>
+            </a>
+            <a class="Header-Purple-Button" href="Contact.html">
+                <h3 class="BiggerWhiteText">Contact</h3>
+            </a>
+            <!--Einde van navigatie-->
+            </nav>
+            <!--progress bar-->
+            <div class="header">
+                <div class="progress-container">
+                  <div class="progress-bar" id="myBar"></div>
+                </div>
+              </div>
+        </div>
+        <!--Einde van header-->
+    </header>
+    <!--Start van mobiel header-->
+    <header>
+    <div class="topnav">
+        <img class="active" src="Images/Logo.png" alt="">
+        <!--navigatie-->
+        <nav id="myLinks">
+          <a class="WhiteText" href="index.html">Home</a>
+          <a class="WhiteText" href="Projecten.html">Projecten</a>
+          <a class="WhiteText" href="OverMij.html">Over mezelf</a>
+          <a class="WhiteText" href="Contact.html">Contact</a>
+           <!--Einde van navigatie-->
+        </nav>
+        <!--Als logo wordt geklikt voert hij een functie uit-->
+        <a href="javascript:void(0);" class="icon" onclick="TopHamburgerMenu()">
+            <!-- Hamburger menu logo-->
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+       <!--Einde van mobiel header-->
+    </header>
+    <!--Start van main-->
+    <main>
+        <div class="Onzichtbare-Rij-Mobiel"></div>
+        <div class="Onzichtbare-Rij"></div>
+        <!--Start van projecten rij-->
+        <h1 class="BiggerWhiteText">Mijn projecten</h1>
+        <div class="Onzichtbare-Rij-Mobiel"></div>
+        <div class="Onzichtbare-Rij"></div>
+        <div class="Afbeelding-Rij">
+            <!--Afbeelding van pinkgoose project-->
+            <img class="Afbeelding-Van-Projecten-Pagina" src="Images/Pinkgoose.png" alt="Een afbeelding van mezelf.">
+            <div class="Beschrijving-Tekst">
+                <!--Start van beschrijving-->
+                <h1 class="BiggerWhiteText">PinkGoose</h1>
+                <p class="WhiteText">Pinkgoose was een opdracht voor het vak Website. Hierbij moest ik de website maken met gebruik van CSS en HTML [Opmaaktalen]</p>
+                    <a href="https://github.com/Joe74012/Website-Pink-Goose">
+                        <h3 class="BiggerWhiteText">Klik hier voor de Pinkgoose website op github.</h3>
+                    </a>
+                    <!--Einde van beschrijving-->
+            </div>
+        </div>
+        <div class="Onzichtbare-Rij-Mobiel"></div>
+        <div class="Onzichtbare-Rij-Mobiel"></div>
+        <div class="Onzichtbare-Rij"></div>
+        <div class="Onzichtbare-Rij"></div>
+        <!--Start van mastermind project uitleg-->
+        <div class="Afbeelding-Rij">
+            <div class="Beschrijving-Tekst">
+                <!--Start van mastermind uitleg-->
+                <h1 class="BiggerWhiteText">Mastermind</h1>
+                <p class="WhiteText">Mastermind was een opdracht voor het vak Basis programmeren. Mastermind is een bordspel die ik heb hermaakt in een speelbaar programma met gebruik van Java.</p>
+                    <a href="https://github.com/Joe74012/Mastermind">
+                        <h3 class="BiggerWhiteText">Klik hier voor het Mastermind programma op github.</h3>
+                    </a>
+                    <!--Einde van mastermind uitleg-->
+            </div>
+            <!--Afbeelding van mastermind project-->
+            <img class="Afbeelding-Van-Projecten-Pagina" src="Images/Mastermind.png" alt="Een afbeelding van mezelf.">
+        </div>
+        <div class="Onzichtbare-Rij"></div>
+        <!--Einde van main-->
+    </main>
+    <!--Start van footer-->
+    <footer>
+        <div class="Onzichtbare-Rij"></div>
+        <div class="Bar">
+            <!--Start van navigatie-->
+            <nav>
+                <ul class="menu">
+                    <li><a class="WhiteText" href="index.html">Home</a></li>
+                    <li><a class="WhiteText" href="Projecten.html">Projecten</a></li>
+                    <li><a class="WhiteText" href="OverMij.html">Over mezelf</a></li>
+                    <li><a class="WhiteText" href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="Bar">
+                <a class="Header-Purple-Button" href="index.html">
+                    <h3 class="BiggerWhiteText">Home</h3>
+            </a>
+            <a class="Header-Purple-Button" href="Projecten.html">
+                <h3 class="BiggerWhiteText">Projecten</h3>
+            </a>
+            <img class="LogoIconStart" src="Images/Logo.png" alt="Website logo">
+            <a class="Header-Purple-Button" href="OverMij.html">
+                <h3 class="BiggerWhiteText">Over mezelf</h3>
+            </a>
+            <a class="Header-Purple-Button" href="Contact.html">
+                <h3 class="BiggerWhiteText">Contact</h3>
+            </a>
+            <!--Einde van navigatie-->
+            </nav>
+        </div>
+        <!--Einde van footer-->
+    </footer>
+    <!--Start van mobiel header-->
+    <footer>
+        <div class="topnav">
+            <!--Navigatie-->
+            <nav id="myLinks2">
+                <a class="WhiteText" href="index.html">Home</a>
+                <a class="WhiteText" href="Projecten.html">Projecten</a>
+                <a class="WhiteText" href="OverMij.html">Over mezelf</a>
+                <a class="WhiteText" href="Contact.html">Contact</a>
+            </nav>
+            <!--Hamburger menu logo-->
+            <img class="active" src="Images/Logo.png" alt="">
+            <!--Als logo wordt geklikt voert hij een functie uit-->
+            <a href="javascript:void(0);" class="icon" onclick="BottomHamburgerMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <!--Einde van mobiel header-->
+    </footer>
+     <!--Einde van body-->
+</body>
